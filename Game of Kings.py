@@ -1,3 +1,5 @@
+#! python3
+
 import random
 from random import shuffle
 import sys
