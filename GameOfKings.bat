@@ -1,0 +1,1 @@
+@py.exe C:\Users\nickb_000\Desktop\Python\Projects\GameOfKings.py %*
