@@ -22,7 +22,7 @@ deck = [
     'Six of Spades', 'Seven of Spades', 'Eight of Spades', 'Nine of Spades', 'Ten of Spades',
     'Jack of Spades', 'Queen of Spades', 'King of Spades'
 
-]  ### Deck from which cards are pulled
+]  # Deck from which cards are pulled
 deck_restore = [
 
     'Ace of Hearts', 'Two of Hearts', 'Three of Hearts', 'Four of Hearts', 'Five of Hearts',
@@ -41,7 +41,7 @@ deck_restore = [
     'Six of Spades', 'Seven of Spades', 'Eight of Spades', 'Nine of Spades', 'Ten of Spades',
     'Jack of Spades', 'Queen of Spades', 'King of Spades'
 
-]  ### Original deck made equal to this to reset game
+]  # Original deck made equal to this to reset game
 rules = ['Waterfall',
          'You assign two drinks',
          'You take three drinks',
@@ -63,7 +63,7 @@ def game_reset():
     deck = deck_restore
 
 
-def main_menu():  ###
+def main_menu():  
     main_menu = 1
     while main_menu == 1:
         print('1. Play Game')
