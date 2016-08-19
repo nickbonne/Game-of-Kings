@@ -1,4 +1,4 @@
-#! python3
+#! /usr/bin/python
 
 import random
 from random import shuffle
